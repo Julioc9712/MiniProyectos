@@ -58,5 +58,7 @@ iframe{
     .current{
         font-size: 25px;
     }
-    
+    .condition{
+        font-size:25px;   
+    }
 }
