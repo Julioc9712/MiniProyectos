@@ -1,0 +1,58 @@
+.container-task{
+    text-align: center;
+    margin: 10rem auto 18rem auto;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.199);
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    backdrop-filter: blur(1rem);
+    border-radius: 10px;
+    
+}
+.form-container{
+    margin:2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.contenedor-title{
+    border-radius: 5px;
+    width: 30rem;
+    padding: 5px;
+    border: 2px solid cornflowerblue;
+    
+}
+
+
+.task{
+    text-align: center;
+    margin-bottom: 5rem;
+    
+}
+@media screen and (max-width:1200px) {
+    .container-task{
+        width: 70%;
+    }
+}
+@media screen and (max-width:980px) {
+    .container-task{
+        width: 80%;
+    }
+}
+@media screen and (max-width:750px) {
+    .container-task{
+        width: 85%;
+    }
+}
+@media screen and (max-width:600px) {
+    .container-task{
+        width: 100%;
+    }
+    
+}

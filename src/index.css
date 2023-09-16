@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Righteous&display=swap');
+
+body{
+    background-image: linear-gradient(to bottom, #fff1eb 0%, #ace0f9 100%);}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous';
+}
+
+.titulo{
+    text-align: center;
+    margin: 5rem auto 5rem auto;
+    font-size: 35px;
+    color:white;
+    text-shadow: #3561ee 2px 2px;
+    
+    
+}

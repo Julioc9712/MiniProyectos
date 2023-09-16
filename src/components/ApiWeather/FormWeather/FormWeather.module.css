@@ -1,0 +1,30 @@
+.container{
+    margin: 10px 0;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: transparent;
+}
+
+.button{
+    background-image: linear-gradient( 270.3deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 100% );    color: white;
+    border-radius: 5px;
+    border: transparent;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.button:hover{
+    filter: drop-shadow(0 0 10px cyan);
+}
+.alert{
+    padding: 5px;
+}

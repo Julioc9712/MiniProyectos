@@ -1,0 +1,29 @@
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+
+footer .link a{
+    text-decoration: none;
+    font-size: 25px;
+}
+
+footer .link a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width:650px){
+    footer .link a{
+        font-size: 20px;
+    }
+    
+    
+    
+}
+

@@ -1,0 +1,51 @@
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto;
+    gap: 5rem;
+    border: transparent 2px solid;
+}
+
+.card{
+    width: 450px;
+    height: 550px;
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card img{
+    width: 450px;
+    height: 350px;
+}
+.card p , .card h5{
+    color: white;
+}
+
+@media screen and (max-width:1000px){
+    .card img{
+        width: 100%;
+    }
+    .card{
+        width: 80%;
+    }
+    .container-card{
+        gap: 2rem;
+    }
+}
+@media screen and (max-width:650px){
+    .container-card{
+        display: block;
+        margin: 5rem auto;
+
+    }
+    .card{
+        margin: 2rem auto;
+        height: 450px ;
+    }
+    .card img{
+        height: 220px;
+    }
+}

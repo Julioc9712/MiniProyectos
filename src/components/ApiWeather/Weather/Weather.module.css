@@ -1,0 +1,24 @@
+.weatherContainer{
+    width: 40%;
+     margin: 10rem auto;
+
+}
+
+@media screen and (max-width:1380px) {
+    .weatherContainer{
+        width: 70%;
+         
+    
+    }
+}
+@media screen and (max-width:980px) {
+    .weatherContainer{
+        width: 95%;
+         
+    
+    }
+}
+@media screen and (max-width:600px){
+   
+    
+}
