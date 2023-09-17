@@ -29,7 +29,7 @@ function Weather() {
         
         try {
             if (!city.trim()) throw { message: "El campo cuidad es obligatorio" } 
-            const request = await fetch(`http://api.weatherapi.com/v1/current.json?key=${VITE_API_KEY}&q=${city}&aqi=no`);
+            const request = await fetch(`https://api.weatherapi.com/v1/current.json?key=${VITE_API_KEY}&q=${city}&aqi=no`);
             const data = await request.json();
             if (data.error) throw { message: data.error.message }
             
