@@ -7,7 +7,7 @@ function Nav() {
     <div className='nav'>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark " >
         <div className="container-fluid" >
-        <a href="https://www.weatherapi.com/" title="Free Weather API" target="_blanck"><img src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com" border="0" className='img-weahter'/></a>
+        <a href="/" title="Free Weather API" target="_blanck"><img src='/image/logo.png' alt="Weather data by WeatherAPI.com" border="0" className='img-weahter'/></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
