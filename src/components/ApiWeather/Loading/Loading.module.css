@@ -1,6 +1,6 @@
 .loadingContainer {
-    width: 760px;
-    height: 700px;
+    width: 100%;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,4 +62,3 @@
       transform: rotate(-360deg);
     }
   }
-      
