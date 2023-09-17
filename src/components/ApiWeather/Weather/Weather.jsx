@@ -21,7 +21,7 @@ function Weather() {
         document.title = `Weather | ${weather?.location.name ?? ""}`
     }, [weather])
 
-    async function loadInfo(city = 'london') {
+    async function loadInfo(city = 'Cuba') {
         setError({
             error: false,
             message: "",
