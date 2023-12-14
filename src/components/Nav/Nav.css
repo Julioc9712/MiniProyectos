@@ -1,34 +1,27 @@
-.nav{
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    width: 100%;
-    
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
 }
-.navbar{
-    width: 100%;
-    
+.navbar {
+  width: 100%;
 }
-.navbar-nav{
-    
-    margin: 0 auto;
+.navbar-nav {
+  margin: 0 auto;
 }
-.navbar-nav a{
-    
-    
-    color: white;
-    font-size: 25px;
-    
- 
+.navbar-nav a {
+  color: white;
+  font-size: 25px;
 }
-.navbar-nav a:hover{
-    color: #0093E9;
+.navbar-nav a:hover {
+  color: #0093e9;
 }
-.img-weahter{
-    width: 60px;
-  
+.img-weahter {
+  width: 60px;
+  border-radius: 50%;
 }
 
-.img-weahter:hover{
-    filter: drop-shadow(0 0 5px rgb(38, 0, 255));
+.img-weahter:hover {
+  filter: drop-shadow(0 0 5px rgb(38, 0, 255));
 }
