@@ -1,29 +1,72 @@
-.link{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.logo-whatapp a img {
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 45px;
+  z-index: 1;
+}
+
+.logo-whatapp a img:hover {
+  filter: drop-shadow(5px 5px 20px #64c1ff);
+
+  scale: 1.1;
+}
+
+.contenedor-icon-footer a {
+  text-decoration: none;
+  color: white;
+
+  padding: 10px;
+  font-size: 22px;
+}
+
+.contenedor-icon-footer a:hover {
+  color: #3b6b81;
+}
+
+.gmail-footer {
+  width: 250px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.gmail {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.gmail:hover {
+  color: #3b6b81;
+}
+
+@media screen and (max-width: 550px) {
+  .gmail {
+    font-size: 12.5px;
+  }
+
+  .contenedor-icon-footer a {
+    font-size: 20px;
     padding: 5px;
+  }
+
+  .gmail-footer {
+    width: 155px;
+  }
+
+  .logo-whatapp a img {
+    margin-right: 5px;
+    width: 35px;
+  }
 }
-
-
-footer .link a{
-    text-decoration: none;
-    font-size: 25px;
-}
-
-footer .link a:hover{
-    color: cyan;
-    text-decoration: underline;
-}
-
-
-
-@media screen and (max-width:650px){
-    footer .link a{
-        font-size: 20px;
-    }
-    
-    
-    
-}
-
